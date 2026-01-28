@@ -1,0 +1,25 @@
+{
+   "name": "@openbeer/iot-lib-server",
+   "version": "1.0.1",
+   "description": "IOT Server to Server Request Library",
+   "types": "./src/iot-lib-server/iot-lib-server.d.ts",
+   "keywords": [
+      "iot",
+      "server",
+      "http secure"
+   ],
+   "author": "Henry Penuela",
+   "license": "ISC",
+   "type": "module",
+   "dependencies": {
+      "js-yaml": "^4.1.0"
+   },
+   "main": "./src/iot-lib-server/iot-lib-server.js",
+   "exports": {
+      ".": {
+         "import": "./src/iot-lib-server/iot-lib-server.js",
+         "require": "./src/iot-lib-server/iot-lib-server.js",
+         "types": "./src/iot-lib-server/iot-lib-server.d.ts"
+      }
+   }
+}
